@@ -15,29 +15,31 @@ body {
 #logo {
     z-index: 1;
     margin: 0px;
-    position: absolute;
-    top: 15px;
-    left: 25px;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    top: 2%;
+    left: 2%;
 }
 
 #title {
-    position: absolute;
+    position: fixed;
     font-family: 'Roboto Slab', serif;
     color: white;
     font-size: 20px;
     z-index: 1;
     font-kerning: 10pt;
-    left: 400px;
+    left: 31.5%;
     top: 20px;
 }
 
 #video {
-    position: absolute;
-    width: 600px;
-    height: 350px;
+    position: fixed;
+    width: 55%;
+    height: 50%;
     z-index: 1;
     border-color: solid red;
-    left: 350px;
+    left: 23%;
     top: 120px;
     background-color: black;
 }
@@ -45,10 +47,10 @@ body {
 #enter {
     z-index: 1;
     position: absolute;
-    width: 200px;
-    height: 100px;
-    bottom: 0px;
-    left: 600px;
+    width: 7%;
+    height: 5%;
+    bottom: 15%;
+    left: 45%;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
     background-color: transparent;
