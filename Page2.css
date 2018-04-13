@@ -1,0 +1,47 @@
+#display {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Layer_1 {
+    position: fixed;
+    top: -71px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: inline-block;
+}
+
+#LogoId {
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#menu {
+    position: absolute;
+    width: 10vw;
+    height: 30vh;
+    z-index: 11;
+    top: 200px;
+}
+
+.nav {
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#controls {
+    position: fixed;
+    top: 200px;
+    left: -70px;
+    font-size: 20px;
+}

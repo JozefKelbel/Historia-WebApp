@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+#background {
+    filter: blur(2px);
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/warplane.jpg);
+    background-size: cover;
+    position: absolute;
+}
+
+#logo {
+    z-index: 1;
+    margin: 0px;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+#title {
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+    font-kerning: 10pt;
+    left: 400px;
+    top: 20px;
+}
+
+#video {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    z-index: 1;
+    border-color: solid red;
+    left: 350px;
+    top: 120px;
+    background-color: black;
+}
+
+#enter {
+    z-index: 1;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    bottom: 0px;
+    left: 600px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
