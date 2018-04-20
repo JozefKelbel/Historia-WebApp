@@ -3,6 +3,10 @@ var bgPosL = 0;
 var move = document.getElementById("buttons");
 var time = 0;
 
+// alert on how to move around the timeline
+window.onload = function(){ alert("To move around time line you must use the arrow keys (bottom left) on your keyboard.")};
+
+// function for moving around the timeline
 document.addEventListener("keydown",function(ev){
     console.log(ev);
    if(ev.keyCode == 37){
@@ -41,6 +45,7 @@ document.getElementById("Airplane").animate([
   iterations: Infinity
 }); */
 
+// functions for showing boxes once clicking on year button
 document.getElementById("button1").addEventListener("click", function(){
    document.getElementById("box").style.display = "block";
     document.getElementById("video1").style.display = "block";

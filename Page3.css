@@ -106,7 +106,7 @@ body {
     left: 0;
     height:100px;
     z-index: 2;
-    bottom: 0px;
+    bottom: 6%;
     width:100%;
     display: inline-block;
 }
@@ -138,8 +138,8 @@ body {
 
 #box {
     position: fixed;
-    width: 900px;
-    height: 400px;
+    width: 60%;
+    height: 50%;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -151,8 +151,8 @@ body {
 
 #box2 {
     position: fixed;
-    width: 900px;
-    height: 400px;
+    width: 60%;
+    height: 50%;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -164,8 +164,8 @@ body {
 
 #box3 {
     position: fixed;
-    width: 900px;
-    height: 400px;
+    width: 60%;
+    height: 50%;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -177,8 +177,8 @@ body {
 
 #box4 {
     position: fixed;
-    width: 900px;
-    height: 400px;
+    width: 60%;
+    height: 50%;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -190,8 +190,8 @@ body {
 
 #box5 {
     position: fixed;
-    width: 900px;
-    height: 400px;
+    width: 60%;
+    height: 50%;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -203,8 +203,8 @@ body {
 
 #box6 {
     position: fixed;
-    width: 900px;
-    height: 400px;
+    width: 60%;
+    height: 50%;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -215,15 +215,15 @@ body {
 }
 
 #close {
-     width: 60px;
+    width: 60px;
     height: 30px;
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
+    border-radius: 5px;
     font-size: 16px;
-    left: 680px;
-    top: 550px;
+    right: 20%;
+    top: 20%;
     position: fixed;
     display: none;
 }
@@ -234,10 +234,10 @@ body {
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
+    border-radius: 5px;
     font-size: 16px;
-    left: 680px;
-    top: 550px;
+    right: 20%;
+    top: 20%;
     position: fixed;
     display: none;
 }
@@ -248,10 +248,10 @@ body {
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
+   border-radius: 5px;
     font-size: 16px;
-    left: 680px;
-    top: 550px;
+    right: 20%;
+    top: 20%;
     position: fixed;
     display: none;
 }
@@ -262,10 +262,10 @@ body {
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
+    border-radius: 5px;
     font-size: 16px;
-    left: 680px;
-    top: 550px;
+    right: 20%;
+    top: 20%;
     position: fixed;
     display: none;
 }
@@ -276,10 +276,10 @@ body {
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
+    border-radius: 5px;
     font-size: 16px;
-    left: 680px;
-    top: 550px;
+    right: 20%;
+    top: 20%;
     position: fixed;
     display: none;
 }
@@ -290,10 +290,10 @@ body {
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
+    border-radius: 5px;
     font-size: 16px;
-    left: 680px;
-    top: 550px;
+    right: 20%;
+    top: 20%;
     position: fixed;
     display: none;
 }
@@ -308,77 +308,79 @@ body {
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 26px;
     display: inline-block;
+    position: fixed;
 }
 
 #button2 {
-        width: 100px;
+    width: 100px;
     height: 50px;
     margin-top: 0px;
-    margin-left: 500px;
+    margin-left: 800px;
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 26px;
     display: inline-block;
+    position: fixed;
 }
 
 #button3 {
-        width: 100px;
+    width: 100px;
     height: 50px;
     margin-top: 0px;
-    margin-left: 400px;
+    margin-left: 1100px;
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 26px;
     display: inline-block;
     position: fixed;
 }
 
 #button4 {
-        width: 100px;
+    width: 100px;
     height: 50px;
     margin-top: 0px;
-    margin-left: 900px;
+    margin-left: 1400px;
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 26px;
     display: inline-block;
     position: fixed;
 }
 
 #button5 {
-        width: 100px;
+    width: 100px;
     height: 50px;
     margin-top: 0px;
-    margin-left: 1500px;
+    margin-left: 1700px;
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 26px;
     display: inline-block;
     position: fixed;
     
 }
 
 #button6 {
-        width: 100px;
+    width: 100px;
     height: 50px;
     margin-top: 0px;
     margin-left: 2000px;
     background-color: crimson;
     color:white;
     font-family: 'Roboto Slab', serif;
-    border-radius: 50px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 26px;
     display: inline-block;
     position: fixed;
 }
