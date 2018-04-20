@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 //animations
 document.getElementById("Air3_1_").animate([
   // keyframes
