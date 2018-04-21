@@ -1,0 +1,82 @@
+#menu {
+    position: fixed;
+    width: 10%;
+    height: 30%;
+    z-index: 11;
+    top: 200px;
+}
+
+#controls {
+    position: fixed;
+    top: 200px;
+    left: -60px;
+    font-size: 20px;
+}
+
+.nav {
+    position: fixed;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#LogoId {
+    position: fixed;
+    z-index: 100;
+    top: 10px;
+    left: -30px;
+    width: 15%;
+    height: 15%;
+}
+
+#display {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 0;
+    width:100%;
+}
+
+#display2 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index:-1;
+    background-image: url(Images/People.svg);
+    background-size: auto 100%;
+    transition: 0.7s;
+}
+
+body {
+    background-color: black;
+}
+#button1 {
+    margin-top: 0px;
+    margin-left: 2000px
+}
+
+#button2 {
+    margin-top: 0px;
+    margin-left: 200px;
+}
+
+.buttons {
+    position:fixed;
+    left: 0;
+    top:0;
+    height:50px;
+    z-index: 2;
+    width:100px;
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 20px;
+    font-size: 26px;
+    
+}

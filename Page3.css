@@ -49,7 +49,7 @@
     cursor: pointer;
     transition: 0.7s;
 }
-}
+
 
 body {
     background-color: black;
@@ -383,4 +383,8 @@ body {
     font-size: 26px;
     display: inline-block;
     position: fixed;
+}
+
+body {
+    background-color: black;
 }

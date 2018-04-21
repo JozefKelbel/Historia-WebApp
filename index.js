@@ -1,4 +1,4 @@
-//animations for tank and plane
+//animations for tank, plane, and background movemment
 document.getElementById("Airplane").animate([
   // keyframes
   { transform: 'translateX(-40px)' }, 
