@@ -1,9 +1,14 @@
+body {
+    overflow: hidden;
+}
+
 #menu {
     position: fixed;
     width: 10%;
-    height: 30%;
+    height: 33%;
     z-index: 11;
     top: 200px;
+    background-color: rgba(200,200,200,0.5);
 }
 
 #controls {
@@ -31,30 +36,25 @@
     height: 15%;
 }
 
-#display {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    position: fixed;
-    z-index: 0;
-    width:100%;
-}
 
 #display2 {
     height: 100%;
     width: 100%;
     position: fixed;
-    left: 0px;
     top: 0px;
-    z-index:-1;
-    background-image: url(Images/People.svg);
-    background-size: auto 100%;
+    left: 0px;
+    right: 0px;
+    z-index:1;
+    background-repeat: no-repeat;
+    background-size: 100%;
     transition: 0.7s;
+    background-color: darkseagreen;
 }
 
 body {
     background-color: black;
 }
+/*
 #button1 {
     margin-top: 0px;
     margin-left: 2000px
@@ -79,4 +79,384 @@ body {
     border-radius: 20px;
     font-size: 26px;
     
+}
+*/
+
+#engflag {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+}
+
+#usaflag {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+}
+
+#naziflag {
+       position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+}
+
+#russian {
+       position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+}
+
+#italian {
+       position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: none;
+}
+
+
+#churchill {
+    top: 100px;
+    left: 400px;
+    position: fixed;
+    z-index: 4;
+    height: 100%;
+    width: auto;
+    display: none;
+}
+
+
+#rosevellt {
+    top: 100px;
+    position: fixed;
+    z-index: 4;
+    height: 100%;
+    width: auto;
+    display: none;
+}
+
+#hitler {
+      top: 100px;
+    position: fixed;
+    z-index: 4;
+    height: 100%;
+    width: auto;
+    display: none;
+}
+
+#stalin {
+    top: 10px;
+    left: 500px;
+    position: fixed;
+    z-index: 4;
+    height: 100%;
+    width: auto;
+    display: none;
+}
+
+#muss {
+        top: 100px;
+    position: fixed;
+    z-index: 4;
+    height: 1000px;
+    width: 1000px;
+    display: none;
+}
+
+#box {
+    position: fixed;
+    width: 545px;
+    height: 300px;
+    background-color:grey;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 3;
+    display: block;
+}
+
+#start {
+     width: 100px;
+    height: 50px;
+    margin-top: 40%;
+    margin-left: 47%;
+    background-color: grey;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    position: absolute;
+    z-index: 4;
+}
+
+.guid {
+    position: fixed;
+    width: 35%;
+    height: 100%;
+    display: block;
+    bottom: 90px;
+    left:33%;
+}
+
+#p1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    bottom: 60px;
+    display: block;
+}
+
+#p2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    bottom: 00px;
+    display: block;
+}
+
+#box2 {
+      position: fixed;
+    width: 565px;
+    height: 600px;
+    background-color:papayawhip;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 5;
+    display: none;
+}
+
+#close1 {
+      width: 100px;
+    height: 50px;
+    margin-top: 52%;
+    margin-left: 45%;
+    background-color: lightgrey;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+
+#box3 {
+    position: fixed;
+    width: 545px;
+    height: 600px;
+    background-color:papayawhip;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 4;
+    display: none;
+}
+#close2 {
+      width: 100px;
+    height: 50px;
+     margin-top: 52%;
+    margin-left: 45%;
+    background-color: lightgrey;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+
+#box4 {
+      position: fixed;
+    width: 545px;
+    height: 600px;
+    background-color:papayawhip;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 4;
+    display: none;
+}
+
+#close3 {
+      width: 100px;
+    height: 50px;
+     margin-top: 52%;
+    margin-left: 45%;
+    background-color:lightgrey;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+
+#box5 {
+      position: fixed;
+    width: 545px;
+    height: 600px;
+    background-color:papayawhip;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 4;
+    display: none;
+}
+
+#close4 {
+      width: 100px;
+    height: 50px;
+     margin-top: 52%;
+    margin-left: 45%;
+    background-color:lightgrey;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+
+#box6 {
+      position: fixed;
+    width: 545px;
+    height: 600px;
+    background-color:papayawhip;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 5px;
+    z-index: 4;
+    display: none;
+}
+
+
+#close5 {
+      width: 100px;
+    height: 50px;
+     margin-top: 52%;
+    margin-left: 45%;
+    background-color: lightgrey;
+    color:black;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 5px;
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    z-index: 4;
+}
+
+.name {
+    color: dimgray;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.des {
+    color: dimgrey;
+    margin-top: -10px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Roboto Slab', serif; 
+    width:500px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#potrait1{
+    position: fixed;
+    width: auto;
+    height: 200px;
+    z-index: 4;
+    border: 2px solid;
+    margin-left: 250px;
+    margin-top: 100px;
+    
+}
+
+#potrait2{
+    position: fixed;
+    width: auto;
+    height: 200px;
+    z-index: 4;
+    border: 2px solid;
+    margin-left: 230px;
+    margin-top: 100px;
+    
+}
+
+#potrait3{
+    position: fixed;
+    width: auto;
+    height: 200px;
+    z-index: 4;
+    border: 2px solid;
+    margin-left: 230px;
+    margin-top: 100px;
+    
+}
+
+#potrait4{
+    position: fixed;
+    width: auto;
+    height: 200px;
+    z-index: 4;
+    border: 2px solid;
+    margin-left: 230px;
+    margin-top: 100px;
+    
+}
+
+#potrait5{
+    position: fixed;
+    width: auto;
+    height: 200px;
+    z-index: 4;
+    border: 2px solid;
+    margin-left: 230px;
+    margin-top: 100px;
+    
+}
+
+h4 {
+    margin-left: 30px;
 }

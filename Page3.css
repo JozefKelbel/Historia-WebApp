@@ -19,9 +19,10 @@
 #menu {
     position: fixed;
     width: 10%;
-    height: 30%;
+    height: 33%;
     z-index: 11;
     top: 200px;
+    background-color: rgba(200,200,200,0.5);
 }
 
 .nav {
@@ -51,9 +52,7 @@
 }
 
 
-body {
-    background-color: black;
-}
+
 
 #display2 {
     width: 100%;
@@ -126,21 +125,21 @@ body {
 
 #video1 {
     top: 0px;
-    bottom:0px;
-    right:258px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     margin:auto;
     position: fixed;
     display:block;
     z-index: 6;
-    width: 40%;
+    width: 600px;
     height: 50%;
 }
 #video2 {
     top: 0px;
-    bottom:0px;
-    right:258px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     margin:auto;
     position: fixed;
     display:block;
@@ -150,9 +149,9 @@ body {
 }
 #video3 {
     top: 0px;
-    bottom:0px;
-    right:258px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     margin:auto;
     position: fixed;
     display:block;
@@ -162,9 +161,9 @@ body {
 }
 #video4 {
     top: 0px;
-    bottom:0px;
-    right:258px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     margin:auto;
     position: fixed;
     display:block;
@@ -174,9 +173,9 @@ body {
 }
 #video5 {
     top: 0px;
-    bottom:0px;
-    right:258px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     margin:auto;
     position: fixed;
     display:block;
@@ -185,10 +184,10 @@ body {
     height: 50%;
 }
 #video6 {
-    top: 0px;
-    bottom:0px;
-    right:258px;
+   top: 0px;
+    bottom: 0px;
     left: 0px;
+    right: 0px;
     margin:auto;
     position: fixed;
     display:block;
@@ -199,8 +198,8 @@ body {
 
 #box {
     position: fixed;
-    width: 60%;
-    height: 50%;
+    width: 400px;
+    height: 200px;
     background-color: azure;
     top: 0px;
     bottom: 0px;
@@ -212,9 +211,8 @@ body {
 
 #box2 {
     position: fixed;
-    width: 60%;
-    height: 50%;
-    background-color: azure;
+    width: 400px;
+    height: 200px;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -225,9 +223,8 @@ body {
 
 #box3 {
     position: fixed;
-    width: 60%;
-    height: 50%;
-    background-color: azure;
+    width: 400px;
+    height: 200px;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -238,9 +235,8 @@ body {
 
 #box4 {
     position: fixed;
-    width: 60%;
-    height: 50%;
-    background-color: azure;
+    width: 400px;
+    height: 200px;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -251,9 +247,8 @@ body {
 
 #box5 {
     position: fixed;
-    width: 60%;
-    height: 50%;
-    background-color: azure;
+    width: 400px;
+    height: 200px;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -264,9 +259,8 @@ body {
 
 #box6 {
     position: fixed;
-    width: 60%;
-    height: 50%;
-    background-color: azure;
+    width: 400px;
+    height: 200px;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -283,7 +277,7 @@ body {
     font-family: 'Roboto Slab', serif;
     border-radius: 5px;
     font-size: 16px;
-    right: 20%;
+    right: 26%;
     top: 20%;
     position: fixed;
     display: none;
@@ -297,7 +291,7 @@ body {
     font-family: 'Roboto Slab', serif;
     border-radius: 5px;
     font-size: 16px;
-    right: 20%;
+    right: 26%;
     top: 20%;
     position: fixed;
     display: none;
@@ -311,7 +305,7 @@ body {
     font-family: 'Roboto Slab', serif;
    border-radius: 5px;
     font-size: 16px;
-    right: 20%;
+    right: 26%;
     top: 20%;
     position: fixed;
     display: none;
@@ -325,7 +319,7 @@ body {
     font-family: 'Roboto Slab', serif;
     border-radius: 5px;
     font-size: 16px;
-    right: 20%;
+    right: 26%;
     top: 20%;
     position: fixed;
     display: none;
@@ -339,7 +333,7 @@ body {
     font-family: 'Roboto Slab', serif;
     border-radius: 5px;
     font-size: 16px;
-    right: 20%;
+    right: 26%;
     top: 20%;
     position: fixed;
     display: none;
@@ -353,7 +347,7 @@ body {
     font-family: 'Roboto Slab', serif;
     border-radius: 5px;
     font-size: 16px;
-    right: 20%;
+    right: 26%;
     top: 20%;
     position: fixed;
     display: none;
@@ -451,97 +445,91 @@ body {
 }
 
 #p1 {
-    width: 15%;
-    height: 20%;
-    position: fixed;
-    color: black;
+    width: 160px;
+    height: 200px;
+    position: absolute;
     font-family: 'Roboto Slab', serif;
-    font-size: 8pt;
+    font-size: 11pt;
     z-index: 5;
-    top: 200px;
-    bottom: 200px;
+    bottom: 120px;
     right: 0px;
-    left: 550px;
-    margin: auto;
-    
+    left: 500px;
+    margin: 0;
+    color: white;
 }
 
+
 #p2 {
-    width: 15%;
-    height: 20%;
-    position: fixed;
-    color: black;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    font-size: 8pt;
+    font-size: 11pt;
     z-index: 5;
-    top: 200px;
-    bottom: 200px;
+    bottom: 100px;
     right: 0px;
-    left: 550px;
-    margin: auto;
+    left: 770px;
+    margin: 0;
     
 }
 
 #p3 {
-    width: 15%;
-    height: 20%;
-    position: fixed;
-    color: black;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    font-size: 8pt;
+    font-size: 11pt;
     z-index: 5;
-    top: 200px;
-    bottom: 200px;
+    bottom: 100px;
     right: 0px;
-    left: 550px;
-    margin: auto;
+    left: 1085px;
+    margin: 0;
     
 }
 
 #p4 {
-    width: 15%;
-    height: 20%;
-    position: fixed;
-    color: black;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    font-size: 8pt;
+    font-size: 11pt;
     z-index: 5;
-    top: 180px;
-    bottom: 200px;
+    bottom: 130px;
     right: 0px;
-    left: 550px;
-    margin: auto;
+    left: 1400px;
+    margin: 0;
     
 }
 
 #p5 {
-    width: 15%;
-    height: 20%;
-    position: fixed;
-    color: black;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    font-size: 8pt;
+    font-size: 11pt;
     z-index: 5;
-    top: 180px;
-    bottom: 200px;
+    bottom: 150px;
     right: 0px;
-    left: 550px;
-    margin: auto;
+    left: 1700px;
+    margin: 0;
     
 }
 
 #p6 {
-    width: 15%;
-    height: 20%;
-    position: fixed;
-    color: black;
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    color: white;
     font-family: 'Roboto Slab', serif;
-    font-size: 8pt;
+    font-size: 11pt;
     z-index: 5;
-    top: 180px;
-    bottom: 200px;
+    bottom: 150px;
     right: 0px;
-    left: 550px;
-    margin: auto;
+    left: 1990px;
+    margin: 0;
     
 }

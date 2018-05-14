@@ -29,15 +29,16 @@
 #menu {
     position: fixed;
     width: 10%;
-    height: 30%;
+    height: 33%;
     z-index: 11;
     top: 200px;
+    background-color: rgba(200,200,200,0.5);
 }
 
 .nav {
     position: fixed;
     font-family: 'Roboto Slab', serif;
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 25px;
     cursor: pointer;
