@@ -41,13 +41,9 @@
 
 #video {
     position: fixed;
-    width: 55%;
-    height: 50%;
     z-index: 1;
-    border-color: solid red;
-    left: 23%;
-    top: 120px;
-    background-color: black;
+    left: 25%;
+    top: 90px;
 }
 
 #enter {
